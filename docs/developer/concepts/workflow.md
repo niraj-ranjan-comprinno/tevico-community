@@ -50,4 +50,4 @@ Once you have extracted the report you can explore the report in 3 ways -
 
 The diagram given below shows the workflow for the `run` command.
 
-![Workflow](../../assets/workflow.png)
+![Workflow](https://assets.tevi.co/COMMUNITY/workflow.png)

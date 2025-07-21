@@ -4,8 +4,8 @@ theme:
   font:
     text: Hanken Grotesk
     code: Roboto Mono
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: https://assets.tevi.co/BRAND/logo.png
+  favicon: https://assets.tevi.co/BRAND/logo.png
   features:
     - navigation.instant
     - navigation.instant.progress

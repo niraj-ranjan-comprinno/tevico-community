@@ -10,7 +10,8 @@ To run the project simply execute the following code in your Cloudshell
 curl https://raw.githubusercontent.com/comprinnotech/tevico-community/refs/heads/main/run.sh?ts=$(date +%s) | bash
 ```
 
-![Image - how to run the project](assets/how-to-run-project.gif)
+<!-- ![Image - how to run the project](assets/how-to-run-project.gif) -->
+![Image - how to run the project](https://assets.tevi.co/COMMUNITY/how_to_run_project.gif)
 
 For more examples, options and manual execution please check the [Project Setup](project-setup.md) and [CLI Params](cli-params.md) under `Manually Generate Report`.
 
@@ -25,7 +26,7 @@ For more examples, options and manual execution please check the [Project Setup]
 
 Downloading the report from AWS Cloudshell is super easy.
 
-![Image - how to download the report](assets/download-report.gif)
+![Image - how to download the report](https://assets.tevi.co/COMMUNITY/download_report.gif)
 
 Simply follow the 4 steps given below.
 
@@ -36,7 +37,7 @@ Simply follow the 4 steps given below.
 
 You'll see a simple, concise and presentable report as shown below.
 
-![Image - report snapshot](assets/report-snapshot.png)
+![Image - report snapshot](https://assets.tevi.co/COMMUNITY/report_snapshot.png)
 
 ## Why use Tevico Community?
 
