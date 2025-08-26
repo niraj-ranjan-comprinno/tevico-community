@@ -18,7 +18,7 @@ echo -ne 'Setting up virtual environment...\n'
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip install poetry
+pip3 install poetry
 poetry install
 poetry --version
 
