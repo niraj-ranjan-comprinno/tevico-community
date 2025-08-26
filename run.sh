@@ -18,7 +18,7 @@ echo -ne 'Setting up virtual environment...\n'
 python3 -m venv .venv
 source .venv/bin/activate
 
-echo -ne 'adddd \n'
+echo -ne 'adddd11 \n'
 /tmp/tevico-community/.venv/bin/python3 -m pip install --upgrade pip
 pip3 install poetry
 poetry install
