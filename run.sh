@@ -19,7 +19,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 echo -ne 'adddd \n'
-pip3 install --upgrade pip3
+/tmp/tevico-community/.venv/bin/python3 -m pip install --upgrade pip
 pip3 install poetry
 poetry install
 poetry lock
