@@ -18,6 +18,7 @@ echo -ne 'Setting up virtual environment...\n'
 python3 -m venv .venv
 source .venv/bin/activate
 
+echo -ne 'adddd \n'
 pip3 install --upgrade pip3
 pip3 install poetry
 poetry install
