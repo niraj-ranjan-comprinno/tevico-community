@@ -18,11 +18,19 @@ echo -ne 'Setting up virtual environment...\n'
 python3 -m venv .venv
 source .venv/bin/activate
 
-echo -ne 'adddd11 \n'
-/tmp/tevico-community/.venv/bin/python3 -m pip install --upgrade pip
-pip3 install poetry
+echo 'Upgrading pip and installing Poetry...'
+pip install --upgrade pip > /dev/null
+pip install poetry > /dev/null
+
+echo 'Resolving dependencies...'
+# if lock file is outdated, refresh it
+if ! poetry lock --check > /dev/null 2>&1; then
+  echo 'Lock file out of date → regenerating...'
+  poetry lock
+fi
 poetry install
-poetry lock
+
+echo 'Dependencies installed successfully.'
 poetry --version
 
 echo 'Installing dependencies...\n'
